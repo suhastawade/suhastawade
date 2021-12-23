@@ -1,8 +1,7 @@
-#!/usr/sbin/python
 
 def callfunc(num1, num2):
     print(f"Calling this function now...")
-    return num1 - num2
+    return num1 + num2
 
 
 def main():
