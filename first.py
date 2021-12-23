@@ -1,4 +1,11 @@
 #!/usr/sbin/python
 
-print "Hello world"
-exit 0
+def callfunc():
+    print(f"Calling this function now...")
+
+
+def main():
+    callfunc()
+
+if __name__ == "__main__":
+    main()
